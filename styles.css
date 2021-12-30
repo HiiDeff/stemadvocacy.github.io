@@ -1,0 +1,94 @@
+html, body {
+    background-color: white;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', "Arial";
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: var(--darkpurple);
+}
+
+button, input {
+    font-family: 'Roboto', "Arial";
+    font-size: 14px;
+}
+
+input[type=submit] {
+    font-family: "Roboto", "Arial";
+}
+
+a {
+    text-decoration: none;
+    background-color: var(--darkpurple);
+    color: var(--neonpink);
+    padding: 10px 20px;
+    font-weight: 400;
+    border-radius: 50px;
+}
+
+:root {
+    --pink: #F7ACFF;
+    --darkpurple: #30134E;
+    --neonpink: #F046F1;
+    --highlight: #fbdbff;
+    --lightpink: #fcf1ff;
+    --lightgray: #f5f5f5;
+}
+
+::-moz-selection {
+    background-color: var(--highlight);
+}
+
+::selection {
+    background-color: var(--highlight);
+}
+
+.header {
+    background-image: linear-gradient( #30134Edd, #30134Edd), url("images/stem.jpg");
+    text-align: center;
+    height: 50vh;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h4, .header h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--neonpink);
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.section {
+    background-color: var(--lightpink);
+    padding: 20px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 900px) {
+    .row {
+        grid-template-columns: auto;
+    }
+}
+
+.col {
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
