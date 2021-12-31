@@ -17,13 +17,16 @@ input[type=submit] {
     font-family: "Roboto", "Arial";
 }
 
-a {
-    text-decoration: none;
+.a {
     background-color: var(--darkpurple);
-    color: var(--neonpink);
     padding: 10px 20px;
-    font-weight: 400;
     border-radius: 50px;
+}
+
+a {
+    color: var(--neonpink);
+    text-decoration: none;
+    font-weight: 400;
 }
 
 :root {
@@ -93,8 +96,26 @@ h2, h4 {
 }
 
 @media screen and (max-width: 900px) {
+    .header {
+        padding: 5px;
+    }
+        
+    .header h1 {
+        font-size: 50px;
+        padding-bottom: 5px;
+    }
+
+    .header h4 {
+        font-size: 20px;
+    }
+    
     .row {
         grid-template-columns: auto;
+    }
+
+    .middlecol {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
