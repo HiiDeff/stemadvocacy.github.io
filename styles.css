@@ -29,8 +29,13 @@ a {
     font-weight: 400;
 }
 
+.a:hover {
+    background-color: var(--notsodarkpurple);
+}
+
 :root {
     --pink: #F7ACFF;
+    --notsodarkpurple: #612b9b;
     --darkpurple: #30134E;
     --neonpink: #F046F1;
     --highlight: #fbdbff;
