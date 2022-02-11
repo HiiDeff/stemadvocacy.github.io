@@ -45,10 +45,12 @@ a {
 
 ::-moz-selection {
     background-color: var(--highlight);
+    color: var(--darkpurple);
 }
 
 ::selection {
     background-color: var(--highlight);
+    color: var(--darkpurple);
 }
 
 .header {
